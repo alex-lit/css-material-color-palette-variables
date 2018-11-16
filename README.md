@@ -1,3 +1,3 @@
-# Material design color pallete (CSS variables with BEM modifiers)
+# Material design color palette
 
-CSS variables for [material design color pallete](https://material.io/design/color/#color-theme-creation).
+CSS variables with BEM modifiers for [material design color palette](https://material.io/design/color/#color-theme-creation).
