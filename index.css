@@ -1,4 +1,10 @@
 :root {
+  /* black*/
+  --black: #000;
+
+  /* white */
+  --white: #fff;
+
   /* red */
   --red--50: #ffebee;
   --red--100: #ffcdd2;
