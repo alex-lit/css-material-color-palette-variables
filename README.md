@@ -21,7 +21,7 @@ HTML:
 CSS:
 
 ```css
-@import url('/node_modules/css-material-color-palette-variables/index.css');
+@import url("/node_modules/css-material-color-palette-variables/index.css");
 ```
 
 Javascript (Webpack):
