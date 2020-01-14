@@ -1,5 +1,5 @@
 {
-  "name": "css-material-color-palette-variables",
+  "name": "@alexlit/css-material-color-palette-variables",
   "version": "1.0.4",
   "description": "CSS variables with BEM modifiers for material design color palette",
   "main": "index.css",
@@ -21,5 +21,29 @@
   "bugs": {
     "url": "https://github.com/alex-lit/CSS-Material-Color-Palette-Variables/issues"
   },
-  "homepage": "https://github.com/alex-lit/CSS-Material-Color-Palette-Variables#readme"
+  "homepage": "https://github.com/alex-lit/CSS-Material-Color-Palette-Variables#readme",
+  "maintainers": [
+    {
+      "name": "Alexey Litovchenko",
+      "email": "alex.lit@outlook.com",
+      "url": "https://alexlit.gitlab.io"
+    }
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.4",
+    "@commitlint/config-conventional": "^8.3.4",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "husky": "^4.0.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
 }
