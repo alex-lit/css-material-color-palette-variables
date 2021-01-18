@@ -1,13 +1,8 @@
 {
   "name": "@alexlit/css-material-color-palette-variables",
-  "private": false,
   "version": "1.0.5",
+  "private": false,
   "description": "CSS variables with BEM modifiers for material design color palette",
-  "main": "index.css",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alex-lit/CSS-Material-Color-Palette-Variables.git"
-  },
   "keywords": [
     "css",
     "postcss",
@@ -17,12 +12,16 @@
     "bem",
     "variables"
   ],
-  "author": "Alexey Litovchenko",
-  "license": "MIT",
+  "homepage": "https://github.com/alex-lit/CSS-Material-Color-Palette-Variables#readme",
   "bugs": {
     "url": "https://github.com/alex-lit/CSS-Material-Color-Palette-Variables/issues"
   },
-  "homepage": "https://github.com/alex-lit/CSS-Material-Color-Palette-Variables#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-lit/CSS-Material-Color-Palette-Variables.git"
+  },
+  "license": "MIT",
+  "author": "Alexey Litovchenko",
   "maintainers": [
     {
       "name": "Alexey Litovchenko",
@@ -30,24 +29,18 @@
       "url": "https://alexlit.gitlab.io"
     }
   ],
+  "main": "index.css",
   "scripts": {
-    "up": "npx npm-check-updates -u & npm i"
+    "lint": "./node_modules/@alexlit/lint-kit/scripts/lint.sh",
+    "lint:eslint": "./node_modules/@alexlit/lint-kit/scripts/lint.eslint.sh",
+    "lint:markdownlint": "./node_modules/@alexlit/lint-kit/scripts/lint.markdownlint.sh",
+    "lint:stylelint": "./node_modules/@alexlit/lint-kit/scripts/lint.stylelint.sh",
+    "publish": "./node_modules/@alexlit/lint-kit/scripts/publish.sh",
+    "semver": "./node_modules/@alexlit/lint-kit/scripts/semver.sh",
+    "up": "./node_modules/@alexlit/lint-kit/scripts/up.sh",
+    "version": "./node_modules/@alexlit/lint-kit/scripts/version.sh"
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "commitizen": "^4.2.1",
-    "cz-conventional-changelog": "^3.3.0",
-    "husky": "^4.3.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
+    "@alexlit/lint-kit": "^0.9.1"
   }
 }

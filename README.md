@@ -1,6 +1,7 @@
 # Material design color palette variables for CSS/PostCSS
 
-CSS variables with BEM modifiers for [material design color palette](https://material.io/design/color/#color-theme-creation).
+CSS variables with BEM modifiers for
+[material design color palette](https://material.io/design/color/#color-theme-creation).
 
 ## Installation
 
@@ -21,7 +22,7 @@ HTML:
 CSS:
 
 ```css
-@import url("/node_modules/@alexlit/css-material-color-palette-variables/index.css");
+@import url('/node_modules/@alexlit/css-material-color-palette-variables/index.css');
 ```
 
 Javascript (Webpack):
