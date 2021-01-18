@@ -1,6 +1,6 @@
 {
   "name": "@alexlit/css-material-color-palette-variables",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "private": false,
   "description": "CSS variables with BEM modifiers for material design color palette",
   "keywords": [
