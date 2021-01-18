@@ -4,21 +4,23 @@
   "private": false,
   "description": "CSS variables with BEM modifiers for material design color palette",
   "keywords": [
-    "css",
-    "postcss",
-    "palette",
-    "color",
-    "material",
     "bem",
+    "color",
+    "css",
+    "material",
+    "material design",
+    "native variables",
+    "palette",
+    "postcss",
     "variables"
   ],
-  "homepage": "https://github.com/alex-lit/CSS-Material-Color-Palette-Variables#readme",
+  "homepage": "https://github.com/alex-lit/css-material-color-palette-variables#readme",
   "bugs": {
-    "url": "https://github.com/alex-lit/CSS-Material-Color-Palette-Variables/issues"
+    "url": "https://github.com/alex-lit/css-material-color-palette-variables/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alex-lit/CSS-Material-Color-Palette-Variables.git"
+    "url": "git+https://github.com/alex-lit/css-material-color-palette-variables.git"
   },
   "license": "MIT",
   "author": "Alexey Litovchenko",
